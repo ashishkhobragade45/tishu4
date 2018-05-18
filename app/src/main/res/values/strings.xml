@@ -1,0 +1,337 @@
+<resources>
+    <string name="app_name">DMC_GETL</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="Select_Company">Select Company</string>
+    <string-array name="company_name">
+        <item>Select</item>
+        <item>ABROAD</item>
+        <item>ACC</item>
+        <item>ACC-BANGALORE</item>
+        <item>AMBERNATH</item>
+        <item>AMBUJA</item>
+        <item>BAFNA MOTORS</item>
+        <item>BALAJI</item>
+        <item>BHARAT GAS</item>
+        <item>BHAUCHA DHAKKA</item>
+        <item>BMC</item>
+        <item>CEMENT GODOWN</item>
+        <item>COTTON GREEN</item>
+        <item>CROMPTON</item>
+        <item>DMC-AMBERNATH</item>
+        <item>ESPAT</item>
+        <item>FORTUNER</item>
+        <item>GODI</item>
+        <item>GULF</item>
+        <item>J KUMAR</item>
+        <item>JNPT</item>
+        <item>JSW</item>
+        <item>KALYAN DHAKKA</item>
+        <item>KALYAN MSCB</item>
+        <item>KDMT</item>
+        <item>L and T</item>
+        <item>LUXURY COACH</item>
+        <item>MAHALUXMI TPT</item>
+        <item>MSRTC</item>
+        <item>NA</item>
+        <item>PRIVATE</item>
+        <item>ULTRATECH</item>
+        <item>VASHI MARKET</item>
+        <item>VIJYA and CO; MULUND</item>
+        <item>WADI BUNDER</item>
+
+    </string-array>
+
+    <string-array name="education">
+        <item>Select</item>
+        <item>Under 10th</item>
+        <item>10th</item>
+        <item>12th</item>
+        <item>I.T.I</item>
+        <item>Diploma</item>
+        <item>Graduation</item>
+        <item>Post Graduation</item>
+    </string-array>
+
+    <string-array name="vehicaltype">
+        <item>Select</item>
+        <item>TRUCK</item>
+        <item>TEMPO</item>
+        <item>BULKER</item>
+        <item>BUS</item>
+        <item>EICHER</item>
+    </string-array>
+
+    <string-array name="plant">
+        <item>Select</item>
+        <item>ACC_Limited_JAMUL_N206</item>
+        <item>AMBUJA_CEMENTS_LIMITED_FARKKA_NE18</item>
+        <item>AMBUJA_CEMENTS_LIMITED_SANKRAIL_NE13</item>
+        <item>ACC_Limited_GAGAL_N210</item>
+        <item>AMBUJA_CEMENTS_LIMITED_Darlaghat_NE04</item>
+        <item>AMBUJA_CEMENTS_LIMITED_ROPAR_NE12</item>
+        <item>ACC_Limited_MADUKKARAI_N203</item>
+        <item>ACC_Limited_BCCI_THANE_N622</item>
+        <item>ACC_Limited_CHANDA_N209</item>
+        <item>AMBUJA_CEMENTS_LIMITED_AMBUJANAGAR_NE02</item>
+        <item>AMBUJA_CEMENTS_LIMITED_MANGALORE_NE32</item>
+        <item>AMBUJA_CEMENTS_LIMITED_PANVEL_NE25</item>
+    </string-array>
+
+    <string-array name="ACC_Limited_JAMUL_N206">
+        <item>Select</item>
+        <item>ANIL TRANSPORT SERVICE- ACC JAMUL</item>
+        <item>BHILAI ROAD CARRIERS- ACC JAMUL</item>
+        <item>MAA VINDHYAVASINI LOGISTIC-ACC JAMUL</item>
+        <item>MURTHY TRANSPORT SERVICE- ACC JAMUL</item>
+        <item>RAVI SREE NARAYAN TRANSPORT- ACC JAMUL</item>
+        <item>TRIPATHI ITRANSPORT COMPANY- ACC JAMUL</item>
+    </string-array>
+
+    <string-array name="AMBUJA_CEMENTS_LIMITED_FARKKA_NE18">
+        <item>Select</item>
+        <item>A GHOSH and CO-ACL FARAKKA</item>
+        <item>AJK ENTERPRISE-ACL FARAKKA</item>
+        <item>BHAGABATI ENTERPRISE-ACL FARAKKA</item>
+        <item>CITIZEN ROADWAYS-ACL FARAKKA</item>
+        <item>M M NR-ACL FARAKKA</item>
+        <item>NITIN GOODS CARRIER-ACC TIKARIA</item>
+        <item>SK AJMUL HONDA-ACL FARAKKA</item>
+        <item>SUNSIN TRANSPORT-ACL FARAKKA</item>
+        <item>UNITED TRADERS-ACL FARAKKA</item>
+    </string-array>
+
+    <string-array name="AMBUJA_CEMENTS_LIMITED_SANKRAIL_NE13">
+        <item>Select</item>
+        <item>JAIN BULK MOVERS PVT LTD-ACL MARATHA</item>
+        <item>ABHISHEK INDUSTRIAL-ACL AMBUJANAGAR</item>
+        <item>AGARWAL TRANSPORT CO-ACC TIKARIA</item>
+        <item>ARHAM CARRIERS PVT LTD -ACL SANKRAIL</item>
+        <item>ATPL TRANSPORT-ACC BCCI</item>
+        <item>BALAJI ENTERPRISE- ACL SANKRAIL</item>
+        <item>BHANDARI LOGISTICS-ACL SANKRAIL</item>
+        <item>BHRIGU ROADLINES- ACL SANKRAIL</item>
+        <item>BMR COMMERCIAL PVT LTD-ACL SANKRAIL</item>
+        <item>GARG ROAD CARRIER-ACC CHANDA</item>
+        <item>K P LOGISTICS-ACC BCCI</item>
+        <item>S S LOGISTICS- ACL SANKRAIL</item>
+        <item>SARADA TRANSPORT -ACL SANKRAIL</item>
+        <item>SHRI KRISHNA ROAD LINESR- ACL SANKRAIL</item>
+        <item>SHRI SANGAMESHWAR AGENCY - ACC WADI</item>
+        <item>SRI KRISHNA ENTERPRISES-ACL SANKRAIL</item>
+        <item>SUBHAM LOGISTICS-ACL SANKRAIL</item>
+        <item>SUMAN FORWARDING AGENCY-ACL SANKRAIL</item>
+        <item>TRANSLINE AGENCIES PVT LTD-ACL SANKRAIL</item>
+        <item>VINAYAK LOGISTICS-ACL SANKRAIL</item>
+    </string-array>
+
+    <string-array name="ACC_Limited_GAGAL_N210">
+        <item>Select</item>
+        <item>ATPL TRANSPORT-ACC BCCI</item>
+        <item>BDTS - ACC-GAGAL</item>
+        <item>CHANDAN ENTERPRICES ACC CCW CHAIBASA</item>
+        <item>HPEX-ACC-GAGAL</item>
+    </string-array>
+
+    <string-array name="AMBUJA_CEMENTS_LIMITED_Darlaghat_NE04">
+        <item>Select</item>
+        <item>AMBUJA DARLA KASHLOG MANGOO-ACL SULI DARLAGHAT	</item>
+        <item>BAGAL LAND LOSERS SOCIETY-ACL SULI DARLAGHAT	</item>
+        <item>GOLDEN LAND LOSERS SOCIETY-ACL SULI DARLAGHAT	</item>
+        <item>H P EX-SERVICEMEN CORPORATION­-ACL SULI DARLAGHAT	</item>
+        <item>SOLAN DISTRICT TRUCK OPERATORS­-ACL SULI DARLAGHAT	</item>
+        <item>THE ROPAR CO OP TRUCK OPERATORS-ACL ROPAR	</item>
+        <item>THE ZILA SOLAN BHOOTPURAV SAINIK­-ACL SULI DARLAGHAT	</item>
+    </string-array>
+
+    <string-array name="AMBUJA_CEMENTS_LIMITED_ROPAR_NE12">
+        <item>Select</item>
+        <item>	ADGN TRANSPORT CO-OPRETIVE SOCITY LTD- ACL ROPAR	</item>
+        <item>	AGARWAL TRANSPORT CO-ACC TIKARIA	</item>
+        <item>	AMBUJA DARLA KASHLOG MANGOO-ACL SULI DARLAGHAT	</item>
+        <item>	AUTO TRANSPORT SERVICES-ACL ROPAR	</item>
+        <item>	BAGAL LAND LOSERS SOCIETY-ACL SULI DARLAGHAT	</item>
+        <item>	BAJRANG TRANSPORT COMPANY-ACC SINDRI	</item>
+        <item>	C C R LOGISTICS PRIVATE LTMITED-ACC CHANDA	</item>
+        <item>	EK ONKAR DASHMESH CARRIER-ACL ROPAR	</item>
+        <item>	GARG ROAD CARRIER-ACC CHANDA	</item>
+        <item>	GURU RAKHA TRANSPORT CO- ACL ROPAR	</item>
+        <item>	HOSHIARPUR FREIGHT CARRIER-ACL ROPAR	</item>
+        <item>	JAI MATA DURGA TRANSPORT CO-ACL ROPAR	</item>
+        <item>	NEW GURU RAKHA TRANSPORT CO-ACL ROPAR	</item>
+        <item>	ROYAL CARRIERS-ACC TIKARIA	</item>
+        <item>	SHRI SANGAMESHWAR AGENCY - ACC WADI	</item>
+        <item>	SOLAN DISTRICT TRUCK OPERATORS­-ACL SULI DARLAGHAT	</item>
+        <item>	THE ROPAR CO OP TRUCK OPERATORS-ACL ROPAR	</item>
+        <item>	VARSHA ROADLINES PVT LTD-ACL ROPAR	</item>
+        <item>	YAMUNA ROADLINES-ACL ROPAR	</item>
+    </string-array>
+
+    <string-array name="ACC_Limited_MADUKKARAI_N203">
+        <item>Select</item>
+        <item>	ASHARAF and CO-ACC MADUKKARAI	</item>
+        <item>	CHAKRAVARTHY ENTERPRIESES-ACC MADUKKARAI	</item>
+        <item>	G R TRANSPORTS-ACC MADUKKARAI	</item>
+        <item>	GEEVEE KUMARAVEL-ACC MADUKKARAI	</item>
+        <item>	IMG TRANSPORTS-ACC MADUKKARAI	</item>
+        <item>	JAYAKRISHNA TRANSPORTS-ACC MADUKKARAI	</item>
+        <item>	SARAVANAN TRANSPORT-ACC MADUKKARAI	</item>
+        <item>	SHREE MAHA ANJENEYA TRANSPORT-ACC MADUKKARAI	</item>
+        <item>	SRT TRANSPORT-ACC MADUKKARAI	</item>
+        <item>	TRAVANCORE TRANSPORTS-ACC MADUKKARAI	</item>
+    </string-array>
+
+    <string-array name="ACC_Limited_BCCI_THANE_N622">
+        <item>Select</item>
+        <item>	ATOZ EXIM-ACC BCCI 	</item>
+        <item>	ATPL TRANSPORT-ACC BCCI	</item>
+        <item>	CM TRANSPORT-ACC BCCI	</item>
+        <item>	GEEVEE KUMARAVEL-ACC MADUKKARAI	</item>
+        <item>	K P LOGISTICS-ACC BCCI	</item>
+        <item>	KANSE ENTERPRISES PVT LTD-ACC BCCI	</item>
+        <item>	NAVALE CO-ACC BCCI	</item>
+        <item>	PRAKASH ENTERPRISES-ACC BCCI	</item>
+        <item>	PRAKASH SUPPLY CHAIN SOLUTIONS LLP-ACC BCCI	</item>
+    </string-array>
+
+    <string-array name="ACC_Limited_CHANDA_N209">
+        <item>Select</item>
+        <item>	ASHIK BULK CARRIER-ACC CHANDA	</item>
+        <item>	AVTAR and COMPANY-ACC CHANDA	</item>
+        <item>	C C R LOGISTICS PRIVATE LTMITED-ACC CHANDA	</item>
+        <item>	DASHMESH NATIONAL ROADWAYS-ACC CHANDA	</item>
+        <item>	DASHMESH TRANSPORT CORPORATE-ACC CHANDA	</item>
+        <item>	GARG ROAD CARRIER-ACC CHANDA	</item>
+        <item>	JAIN BULK MOVERS PVT LTD.-ACC CHANDA	</item>
+        <item>	M K Y LOGISTICS PVT LTD- ACC CHANDA	</item>
+        <item>	MAHAMAYA TRANSPORT AGENCY-ACC TIKARIA	</item>
+        <item>	NIRBHAI TRANSPORT SERVICE-ACC CHANDA	</item>
+        <item>	PALIWAL TRANSPORT CORPORATION-CHANDA ACC	</item>
+        <item>	SAHANI GOODS TRANSPORT-ACC CHANDA	</item>
+        <item>	SANA ROADLINES-ACC CHANDA	</item>
+        <item>	SARAVANAN TRANSPORT-ACC MADUKKARAI	</item>
+        <item>	SHANTOSHKUMAR F BHOOT-CHANDA ACC	</item>
+        <item>	SHREE CHADDA ROADLINES-CHANDA ACC	</item>
+        <item>	SURAKSHA CEMENT CARRIERS-CHANDA ACC	</item>
+        <item>	SURESH TULSIDAS DAWDA-ACC CHANDA	</item>
+        <item>	VIDHARBHA TRANSPORT COMPANY-ACC CHANDA	</item>
+    </string-array>
+
+    <string-array name="AMBUJA_CEMENTS_LIMITED_AMBUJANAGAR_NE02">
+        <item>Select</item>
+        <item>	ABHISHEK INDUSTRIAL-ACL AMBUJANAGAR	</item>
+        <item>	AGARWAL TRANSPORT CO-ACC TIKARIA	</item>
+        <item>	ASSOCIATED ROADWAYS-ACC SINDRI	</item>
+        <item>	ATPL TRANSPORT-ACC BCCI	</item>
+        <item>	BALAJI ENTERPRISE- ACL SANKRAIL	</item>
+        <item>	CM TRANSPORT-ACC BCCI	</item>
+        <item>	GANESHA CARRIER-ACL MAGDALLA	</item>
+        <item>	KRISHNA ROADWAYS-ACC SINDRI	</item>
+        <item>	PRAKASH SUPPLY CHAIN SOLUTIONS LLP-ACC BCCI	</item>
+        <item>	RAJMOTI ROAD MOVERS-ACL AMBUJANAGAR	</item>
+        <item>	SAAVY CORPORATION - ACL AMBUJANAGAR	</item>
+        <item>	SINGH ROAD LINES-ACC TIKARIA	</item>
+        <item>	TULAJABHAVANI RAODWAYS ACC-WADI	</item>
+    </string-array>
+
+    <string-array name="AMBUJA_CEMENTS_LIMITED_MANGALORE_NE32">
+        <item>Select</item>
+        <item>	ATPL TRANSPORT-ACC BCCI	</item>
+        <item>	LUCKY TRANSPORT ACL MANGALORE	</item>
+        <item>	LUCKY TRANSPORT-ACL COCHIN	</item>
+        <item>	PRAKASH ENTERPRISES-ACC BCCI	</item>
+        <item>	SVTC-ACL MANGALORE	</item>
+    </string-array>
+    <string-array name="AMBUJA_CEMENTS_LIMITED_PANVEL_NE25">
+        <item>Select</item>
+        <item>	AGARWAL TRANSPORT CO-ACC TIKARIA	</item>
+        <item>	ARIHANT BULK CARRIER-ACL PANVEL	</item>
+        <item>	ATOZ EXIM-ACC BCCI 	</item>
+        <item>	ATPL TRANSPORT-ACC BCCI	</item>
+        <item>	BAJRANG TRANSPORT COMPANY-ACC SINDRI	</item>
+        <item>	BALAJI BULK MOVERS-ACL PANVEL	</item>
+        <item>	BHRIGU ROADLINES- ACL SANKRAIL	</item>
+        <item>	BMR COMMERCIAL PVT LTD-ACL SANKRAIL	</item>
+        <item>	CHANDAN ENTERPRICES ACC CCW CHAIBASA	</item>
+        <item>	CM TRANSPORT-ACC BCCI	</item>
+        <item>	GANESHA CARRIER-ACL MAGDALLA	</item>
+        <item>	GANESHA CARRIERS-ACL PANVEL	</item>
+        <item>	GARG ROAD CARRIER-ACC CHANDA	</item>
+        <item>	HINDUSTAN TRANSPORT SERVICES-ACC TIKARIA	</item>
+        <item>	JAI MATA DURGA TRANSPORT CO-ACL ROPAR	</item>
+        <item>	K P LOGISTICS-ACC BCCI	</item>
+        <item>	KRISHNA ROADWAYS-ACC SINDRI	</item>
+        <item>	LUCKY TRANSPORT ACL MANGALORE	</item>
+        <item>	LUCKY TRANSPORT-ACL COCHIN	</item>
+        <item>	MOHAN TRANSPORT CO-ACC THONDEBHAVI	</item>
+        <item>	PRAKASH ENTERPRISES-ACC BCCI	</item>
+        <item>	RAGHUVANSHI TRANSPORT CO-ACL ROORKEE	</item>
+        <item>	SRT TRANSPORT-ACC MADUKKARAI	</item>
+        <item>	SSS TRANSPORT ACC THONDEBHAVI	</item>
+        <item>	VIKRAM COAL- ACL ROORKEE	</item>
+    </string-array>
+    // main home Spinner data Acc and acl start
+    <string-array name="company_home">
+        <item>Select Company</item>
+        <item>ACC</item>
+        <item>ACL</item>
+    </string-array>
+    <string-array name="ACC">
+        <item>Select Zone</item>
+        <item>ACC_EAST</item>
+        <item>ACC_WEST</item>
+        <item>ACC_NORHT</item>
+        <item>ACC_SOUTH</item>
+    </string-array>
+
+    <string-array name="ACL">
+        <item>Select Zone</item>
+        <item>ACL_EAST</item>
+        <item>ACL_WEST</item>
+        <item>ACL_NORHT</item>
+        <item>ACL_SOUTH</item>
+    </string-array>
+
+    <string-array name="ACC_EAST">
+        <item>JAMUL</item>
+        <item>PATHARIA MINES</item>
+    </string-array>
+
+    <string-array name="ACC_WEST">
+        <item>BCCI</item>
+        <item>CHANDA</item>
+    </string-array>
+
+    <string-array name="ACC_NORHT">
+        <item>GAGAL</item>
+    </string-array>
+    <string-array name="ACC_SOUTH">
+        <item>MADUKARRAI</item>
+    </string-array>
+
+    <string-array name="ACL_EAST">
+        <item>FARAKKA</item>
+        <item>SANKRAIL</item>
+    </string-array>
+    <string-array name="ACL_WEST">
+        <item>PANVEL</item>
+        <item>AMBUJANAGAR</item>
+        <item>MBUJANGAR_MINES</item>
+    </string-array>
+    <string-array name="ACL_NORHT">
+        <item>ROPAR_CLINKER_YARD</item>
+        <item>ROPAR_CEMENT_YARD</item>
+        <item>DARLAGHAT</item>
+    </string-array>
+    <string-array name="ACL_SOUTH">
+        <item>MANGALORE</item>
+    </string-array>
+
+
+</resources>

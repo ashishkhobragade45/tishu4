@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_driver">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/edtdlno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter DL No."
+                android:maxLength="15"/>
+
+            <EditText
+                android:id="@+id/edtaadhar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="12"
+                android:hint="Enter aadhar No." />
+
+            <EditText
+                android:id="@+id/edtdlpassportno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter E_Passport No."
+                android:maxLength="15"/>
+
+            <EditText
+                android:id="@+id/edtdlname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Name"
+                android:maxLength="25"/>
+
+            <EditText
+                android:id="@+id/edtdlmobno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Contact No."
+                android:inputType="phone"
+                android:maxLength="10"/>
+
+            <EditText
+                android:id="@+id/edtaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Address"
+                android:inputType="textPostalAddress"
+                android:maxLength="30"/>
+
+            <EditText
+                android:id="@+id/edtdob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Driver D.O.B."
+                android:clickable="true"
+                android:editable="false"
+                android:inputType="none"
+                />
+
+            <EditText
+                android:id="@+id/edtdlvalidity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select DL Validity."
+                android:inputType="none"
+                android:clickable="true"
+                android:editable="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:paddingStart="5dp"
+                    android:text="Select Education"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"/>
+
+                <Spinner
+                    android:id="@+id/speducation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edtdlfamily"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Driver Family member name"
+                android:maxLength="35"/>
+
+            <EditText
+                android:id="@+id/edtdrivingsince"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Driving Since Year (e.g. 1992)"
+                android:inputType="none"
+                android:clickable="true"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/edtdrivingus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Driving for company Since (e.g. 1992)"
+                android:inputType="none"
+                android:clickable="true"
+                android:editable="false"/>
+
+          <!--  <EditText
+                android:id="@+id/edtcompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Company" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:paddingStart="5dp"
+                    android:text="Select Company"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"/>
+
+                <Spinner
+                    android:id="@+id/spcompany"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+            </LinearLayout>
+
+
+
+            <EditText
+                android:id="@+id/edtaltercontact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Emergency Contact No."
+                android:inputType="phone"
+                android:maxLength="10"/>
+
+            <EditText
+                android:id="@+id/edtvehicalno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Vehical Reg. No."
+                android:maxLength="10"/>
+
+           <!-- <EditText
+                android:id="@+id/edtvehicaltype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Vehicle Type " />-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:paddingStart="5dp"
+                    android:text="Select Vehical Type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"/>
+
+                <Spinner
+                    android:id="@+id/spvtype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/edtvehicalmodel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Vehicle Model"
+                android:maxLength="10"/>
+
+           <!-- <EditText
+                android:id="@+id/edttransporter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Vehicle Transporter"
+                />-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:paddingStart="5dp"
+                    android:text="Select Plant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"/>
+
+                <Spinner
+                    android:id="@+id/spmainplant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:paddingStart="5dp"
+                    android:text="Select Transporter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"/>
+
+                <Spinner
+                    android:id="@+id/sptransporter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+            </LinearLayout>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnsubmit"
+                    android:padding="05dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Submit" />
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:id="@+id/btncancle"
+                    android:padding="05dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cancel" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

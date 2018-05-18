@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "49258948386",
+    "firebase_url": "https://dmcgetl.firebaseio.com",
+    "project_id": "dmcgetl",
+    "storage_bucket": "dmcgetl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49258948386:android:4f9457c0efdc2afd",
+        "android_client_info": {
+          "package_name": "asia.getl.dmc_getl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49258948386-qs4kpp9sejhljrgua050f2qc5ubfk5qf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "asia.getl.dmc_getl",
+            "certificate_hash": "eb4975a312d96086c9fab83ab435c01e6c1d0596"
+          }
+        },
+        {
+          "client_id": "49258948386-vl6u8uuamr899r7td0ipdbari1kngrh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALxWifTbUIRxS5mJTjF3VbPke2fLyoKTA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49258948386-vl6u8uuamr899r7td0ipdbari1kngrh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

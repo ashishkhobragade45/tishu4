@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_driver_add"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Add New Driver" />
+    </group>
+
+        <item android:title="Links">
+            <menu>
+        <item
+            android:id="@+id/nav_epassport"
+            android:icon="@drawable/ic_local_parking_black_24dp"
+            android:title="E Passport" />
+        <item
+            android:id="@+id/nav_cargo"
+            android:icon="@drawable/ic_local_shipping_black_24dp"
+            android:title="Trimble Visual cargo" />
+        <item
+            android:id="@+id/nav_fms"
+            android:icon="@drawable/ic_tab_black_24dp"
+            android:title="Trimble FMS" />
+        <item
+            android:id="@+id/nav_vpr"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Vehicle performance report" />
+            </menu>
+        </item>
+
+
+
+</menu>
